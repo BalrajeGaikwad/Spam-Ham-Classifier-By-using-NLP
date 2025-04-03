@@ -5,6 +5,10 @@ Project Overview
 
 ​Implementing a Spam-Ham classifier using the Multinomial Naive Bayes algorithm with both Bag of Words (BoW) and Term Frequency-Inverse Document Frequency (TF-IDF) approaches is a well-established method in text classification. Multinomial Naive Bayes is particularly suited for discrete data, making it effective for document classification tasks where features represent word frequencies or occurrences. ​
 
+Accuracy Score
+A) By Using BOW and Stemming = 98.49
+B) By Using TF-IDF and Lemmatization = 97.77
+
 1. Data Preprocessing
 
 Begin by loading and preprocessing your dataset. This involves cleaning the text data by removing punctuation, converting text to lowercase, and eliminating stopwords. Tokenization and lemmatization or stemming can further refine the text data.​
